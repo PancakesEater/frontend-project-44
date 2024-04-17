@@ -1,0 +1,15 @@
+{
+    "name": "@hexlet/code",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "dependencies": {},
+    "type": "module",
+    "bin": {
+        "brain-games.js": "bin/brain-games.js",
+        "brain-games": "bin/brain-games.js",
+        "brain-even": "bin/brain-even.js"
+    }
+    
+}
