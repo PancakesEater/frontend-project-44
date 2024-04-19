@@ -1,4 +1,4 @@
-import { questionModule } from '../cli.js';
+import { questionStart } from '../cli.js';
 
 export default function calc() {
   function randomNumber(min, max) {

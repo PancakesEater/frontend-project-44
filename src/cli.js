@@ -6,9 +6,9 @@ console.log('Welcome to the Brain Games!');
 export const name = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${name}!`);
 
-export function questionStart(answer, correctAnswer, numOrStr = 'str') {
+export function questionStart(answer, correctAnswer, Str = 'str') {
   console.log(`Question: ${answer}`);
-  if (numOrStr === 'num') {
+  if (Str === 'num') {
     const question = readlineSync.question('Your answer: ');
     if (Number(question) === correctAnswer) {
       console.log('Correct!');
